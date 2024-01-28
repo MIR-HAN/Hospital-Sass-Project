@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Hospital Website using HTML, Sass, & JavaScript</title>
+    <!--MINIFIED CSS-->
+    <link rel="stylesheet" href="css/style.min.css">
+    <!--BOX ICON CDN-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--Link Swipper Css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <a href="" class="nav__logo">
+                <h3>LIFELINK CLINIC</h3>
+            </a>
+
+            <ul id="nav-items">
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#services">Services</a></li>
+                <li> <a href="#specialists">Specialists</a></li>
+                <li> <a href="#testimonials">Testimonials</a></li>
+                <li> <a href="#appointment" class="btn">Make Appointment</a></li>
+            </ul>
+
+            <button id="open__nav-btn"><i class='bx bx-menu'></i></button>
+            <button id="close__nav-btn"><i class='bx bxs-x-square'></i></button>
+        </div>
+    </nav>
+    <!-- End Of Navbar-->
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header__content">
+                <h1>Complete Health Care Solutions For Everyone</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi obcaecati, ut voluptate labore nulla
+                    suscipit!</p>
+
+                <a href="#appointment" class="btn">Make Appointment</a>
+            </div>
+            <div class="header__img">
+                <img src="./img/header.svg" alt="header-img">
+            </div>
+        </div>
+    </header>
+    <!-- End OfHeader -->
+
+    <!-- Services -->
+
+    <section id="services">
+        <h2>Our Services</h2>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, doloribus?</p>
+
+        <div class="container">
+            <article>
+                <i class='bx bx-book-content'></i>
+
+                <div>
+                    <h4>Online Booking</h4>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eius tempore facilis.
+                        Perferendis, natus. Adipisci consectetur atque at dolorem quae!</small>
+                </div>
+
+            </article>
+            <article>
+                <i class='bx bx-trophy'></i>
+
+                <div>
+                    <h4>Online Booking</h4>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eius tempore facilis.
+                        Perferendis, natus. Adipisci consectetur atque at dolorem quae!</small>
+                </div>
+
+            </article>
+            <article>
+                <i class='bx bx-support'></i>
+
+                <div>
+                    <h4>Online Booking</h4>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eius tempore facilis.
+                        Perferendis, natus. Adipisci consectetur atque at dolorem quae!</small>
+                </div>
+
+            </article>
+            <article>
+                <i class='bx bx-donate-heart'></i>
+
+                <div>
+                    <h4>Online Booking</h4>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eius tempore facilis.
+                        Perferendis, natus. Adipisci consectetur atque at dolorem quae!</small>
+                </div>
+
+            </article>
+            <article>
+                <i class='bx bx-first-aid'></i>
+
+                <div>
+                    <h4>Online Booking</h4>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eius tempore facilis.
+                        Perferendis, natus. Adipisci consectetur atque at dolorem quae!</small>
+                </div>
+
+            </article>
+            <article>
+                <i class='bx bxl-meta'></i>
+
+                <div>
+                    <h4>Online Booking</h4>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eius tempore facilis.
+                        Perferendis, natus. Adipisci consectetur atque at dolorem quae!</small>
+                </div>
+
+            </article>
+        </div>
+
+    </section>
+    <!-- End Of Services -->
+    <section id="specialists">
+        <h2>Out Top Specialists</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est quae quos, neque incidunt repellat fugit
+            similique architecto rerum doloribus quis.</p>
+        <div class="container">
+            <article>
+                <div class="specialist__image">
+                    <img src="img/specialist1.jpg" alt="spc1">
+                </div>
+                <div class="specialist__details">
+                    <h4>Dr. Kwadjo Nkansa</h4>
+                    <small>Surgery Specialist</small>
+                </div>
+                <div class="specialist__socials">
+                    <a href="https://linkedin.com" target="blank"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://twitter.com" target="blank"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://facebook.com" target="blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://instagram.com" target="blank"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=+31611163426" class="specialist__whatsapp"
+                    target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </article>
+            <article>
+                <div class="specialist__image">
+                    <img src="img/specialist2.jpg" alt="spc1">
+                </div>
+                <div class="specialist__details">
+                    <h4>Dr. Fella Bross</h4>
+                    <small>Orthopedic Specialist</small>
+                </div>
+                <div class="specialist__socials">
+                    <a href="https://linkedin.com" target="blank"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://twitter.com" target="blank"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://facebook.com" target="blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://instagram.com" target="blank"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=+31611163426" class="specialist__whatsapp"
+                    target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </article>
+            <article>
+                <div class="specialist__image">
+                    <img src="img/specialist3.jpg" alt="spc1">
+                </div>
+                <div class="specialist__details">
+                    <h4>Dr. Fenna Nkansa</h4>
+                    <small>Cardiology Specialist</small>
+                </div>
+                <div class="specialist__socials">
+                    <a href="https://linkedin.com" target="blank"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://twitter.com" target="blank"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://facebook.com" target="blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://instagram.com" target="blank"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=+31611163426" class="specialist__whatsapp"
+                    target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </article>
+            <article>
+                <div class="specialist__image">
+                    <img src="img/specialist4.jpg" alt="spc1">
+                </div>
+                <div class="specialist__details">
+                    <h4>Dr. Naja Adama</h4>
+                    <small>Onkology Specialist</small>
+                </div>
+                <div class="specialist__socials">
+                    <a href="https://linkedin.com" target="blank"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://twitter.com" target="blank"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://facebook.com" target="blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://instagram.com" target="blank"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=+31611163426" class="specialist__whatsapp"
+                    target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </article>
+        </div>
+    </section>
+
+    <!-- End Of Specialist -->
+
+    <section id="testimonials" class="swiper mySwiper">
+        <h2>What Our Patients Say</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et at laboriosam neque dolores cum architecto!</p>
+
+        <div class="swiper-wrapper">
+            <article class="swiper-slide">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, accusantium. Suscipit quasi aut
+                    soluta temporibus!
+                </p>
+
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="img/avatar1.jpg" alt="">
+                    </div>
+                    <div class="patient__details">
+                        <h5 class="space">Nana Ama McBrown</h5>
+                        <small>Patient</small>
+                    </div>
+
+                </div>
+
+            </article>
+            <article class="swiper-slide">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, accusantium. Suscipit quasi aut
+                    soluta temporibus!
+                </p>
+
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="img/avatar2.jpg" alt="">
+                    </div>
+                    <div class="patient__details">
+                        <h5>John Duwello</h5>
+                        <small>Patient</small>
+                    </div>
+
+                </div>
+
+            </article>
+            <article class="swiper-slide">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, accusantium. Suscipit quasi aut
+                    soluta temporibus!
+                </p>
+
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="img/avatar3.jpg" alt="">
+                    </div>
+                    <div class="patient__details">
+                        <h5>Edem Quist</h5>
+                        <small>Patient</small>
+                    </div>
+
+                </div>
+
+            </article>
+            <article class="swiper-slide">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, accusantium. Suscipit quasi aut
+                    soluta temporibus!
+                </p>
+
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="img/avatar4.jpg" alt="">
+                    </div>
+                    <div class="patient__details">
+                        <h5>Chantal Mouf</h5>
+                        <small>Patient</small>
+                    </div>
+
+                </div>
+
+            </article>
+            <article class="swiper-slide">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, accusantium. Suscipit quasi aut
+                    soluta temporibus!
+                </p>
+
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="img/avatar6.jpg" alt="">
+                    </div>
+                    <div class="patient__details">
+                        <h5>Diana Ayi</h5>
+                        <small>Patient</small>
+                    </div>
+
+                </div>
+
+            </article>
+            <article class="swiper-slide">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, accusantium. Suscipit quasi aut
+                    soluta temporibus!
+                </p>
+
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="img/avatar7.jpg" alt="">
+                    </div>
+                    <div class="patient__details">
+                        <h5>John Depa</h5>
+                        <small>Patient</small>
+                    </div>
+
+                </div>
+
+            </article>
+            <article class="swiper-slide">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, accusantium. Suscipit quasi aut
+                    soluta temporibus!
+                </p>
+
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="img/avatar5.jpg" alt="">
+                    </div>
+                    <div class="patient__details">
+                        <h5>Jackie Mors</h5>
+                        <small>Patient</small>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </section>
+    <!-- End Of Testimonials -->
+
+    <section id="appointment">
+        <div class="container">
+            <div class="info">
+                <h2>Get Appointment</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, nostrum!</p>
+
+                <article>
+                    <div class="info__icon">
+                        <i class="bx bx-user"></i>
+                    </div>
+                    <div>
+                        <h4>Experience Doctors</h4>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dicta temporibus vel
+                            ipsa .</small>
+                    </div>
+                </article>
+                <article>
+                    <div class="info__icon">
+                        <i class="bx bx-reflect-horizontal"></i>
+                    </div>
+                    <div>
+                        <h4>Advanced Tecnology</h4>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dicta temporibus vel
+                            ipsa.</small>
+                    </div>
+                </article>
+                <article>
+                    <div class="info__icon">
+                        <i class="bx bx-first-aid"></i>
+                    </div>
+                    <div>
+                        <h4>Emergency Care</h4>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dicta temporibus vel
+                            ipsa .</small>
+                    </div>
+                </article>
+            </div>
+
+            <form>
+                <div class="form__group">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Enter Your Name" name="Patient's Name" id="name" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="Phone Number">Phone Number</label>
+                    <input type="number" placeholder="Enter Your Phone Number" name="Phone Number" id="phone" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="date">Date</label>
+                    <input type="date" placeholder="Choose a Date" name="Date" id="date" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="department">Select Department</label>
+                    <select name="Department" id="department" required>
+                        <option value="Department One">Department One</option>
+                        <option value="Department Two">Department Two</option>
+                        <option value="Department Three">Department Three</option>
+                        <option value="Department Four">Department Four</option>
+                    </select>
+                </div>
+
+                <div class="form__group">
+                    <label for="doctor">Select Doctor</label>
+                    <select name="Doctor" id="doctor" required>
+                        <option value="Doctor One">Doctor One</option>
+                        <option value="Doctor Two">Doctor Two</option>
+                        <option value="Doctor Three">Doctor Three</option>
+                        <option value="Doctor Four">Doctor Four</option>
+                    </select>
+                </div>
+
+                <div class="form__group">
+                    <label for="message">Additional Message</label>
+                    <textarea name="Added Message" id="message" rows="6" placeholder="Add a message"
+                        required></textarea>
+                </div>
+                <input type="submit" value="Submit Request" class="btn-primary">
+
+
+
+            </form>
+        </div>
+
+
+    </section>
+    <!-- End Of the Appointment -->
+    <footer>
+        <div class="container">
+            <article>
+                <a href="#" class="footer__logo">LIFELINK CLINIC</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, itaque.</p>
+
+                <div>
+                    <i class="bx bxs-phone"></i>
+                    <small>+22155255255</small>
+                </div>
+                <div>
+                    <i class="bx bx-mail-send"></i>
+                    <small>mmirhanyorulmazz@gmail.com</small>
+                </div>
+            </article>
+
+            <article>
+                <h3>Support</h3>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Purchasing Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Career</a>
+            </article>
+
+            <article>
+                <h3>Permalinks</h3>
+                <a href="#">Home</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#services">Services</a>
+                <a href="#specialists"> Specialists</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#appointment" class="btn-primary">Get Appointment</a>
+            </article>
+
+            <article>
+                <h3>Contact Us</h3>
+                <p>Press</p>
+                <p>FAQs</p>
+                <div class="footer__socials">
+
+                    <a href="#" class="bx bxl-linkedin-square"></a>
+                    <a href="#" class="bx bxl-twitter"> </a>
+                    <a href="#" class="bx bxl-facebook"></a>
+                    <a href="#" class="bx bxl-instagram"></a>
+                </div>
+            </article>
+        </div>
+        <div class="copyright">
+            <small>&copy; All Rights Reserved</small>
+        </div>
+
+    </footer>
+
+
+
+    <!-- Swiper Js -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
